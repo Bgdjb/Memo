@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#05051a"><link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/icon-192.png"><link rel="apple-touch-icon" href="assets/icon-192.png">
+<title>MEMO 2.0</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><img src="assets/icon-192.png" alt="" width="36" height="36"><h1>قاموس</h1></header>
+<noscript><p class="err">التطبيق يحتاج تفعيل JavaScript.</p></noscript>
+<main>
+ <section class="view" id="v-home">
+  <label class="search"><span aria-hidden="true">🔍</span><input id="q" type="search" placeholder="ابحث عن كلمة..." aria-label="ابحث عن كلمة" autocomplete="off" dir="auto"></label>
+  <div id="results" aria-live="polite"></div><div id="home-card"></div>
+ </section>
+ <section class="view" id="v-gram" hidden><h2 class="vt">مكتبة القواعد</h2><div id="gram-body"></div></section>
+ <section class="view" id="v-ex" hidden><h2 class="vt">التدريبات</h2><div id="ex-body"></div></section>
+ <section class="view" id="v-favs" hidden><h2 class="vt">المفضلة</h2><div id="favs-list"></div></section>
+ <section class="view" id="v-hist" hidden><h2 class="vt">السجل</h2><div id="hist-list"></div><button class="btn ghost" id="clear-hist" style="width:100%;margin-top:10px">مسح السجل</button></section>
+ <section class="view" id="v-more" hidden><h2 class="vt">الحساب</h2><div id="stats"></div><p class="empty">لا حساب ولا اشتراك. بياناتك محفوظة على جهازك فقط.</p></section>
+</main>
+<nav aria-label="التنقل الرئيسي">
+ <button data-go="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>الرئيسية</button>
+ <button data-go="gram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h7a2 2 0 0 1 1 .3A2 2 0 0 1 13 5h7v14h-7a2 2 0 0 0-1 .3 2 2 0 0 0-1-.3H4zM12 5.3V19.3"/></svg>القواعد</button>
+ <button data-go="ex"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l4 4 10-10"/></svg>التدريبات</button>
+ <button data-go="favs"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.6-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.4-9.5 9-9.5 9z"/></svg>المفضلة</button>
+ <button data-go="hist"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>السجل</button>
+ <button data-go="more"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>الحساب</button>
+</nav>
+<script src="db.js"></script><script src="dictionary.js"></script><script src="grammar.js"></script><script src="exercises.js"></script><script src="library.js"></script><script src="app.js"></script>
+</body></html>

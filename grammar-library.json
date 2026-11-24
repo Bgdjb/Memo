@@ -1,0 +1,507 @@
+{
+ "version": 2,
+ "source": "MEMO – GRAMMAR INDEX 2026–2027 (فهرس قواعد كتاب المعاصر)",
+ "tracks": {
+  "prep": "المرحلة الإعدادية",
+  "general": "الثانوية العامة",
+  "bac": "البكالوريا المصرية"
+ },
+ "order": [
+  "prep1",
+  "prep2",
+  "prep3",
+  "gen1",
+  "gen2",
+  "gen3",
+  "bac1",
+  "bac2"
+ ],
+ "years": {
+  "prep1": {
+   "name": "الصف الأول الإعدادي",
+   "track": "prep",
+   "verified": true,
+   "rules": [
+    {
+     "id": "adverbs-of-frequency-present-simple",
+     "name": "Adverbs of Frequency with Present Simple"
+    },
+    {
+     "id": "present-continuous",
+     "name": "Present Continuous"
+    },
+    {
+     "id": "can-cant-ability",
+     "name": "Can / Can't for Ability"
+    },
+    {
+     "id": "past-simple",
+     "name": "Past Simple"
+    },
+    {
+     "id": "first-conditional",
+     "name": "First Conditional"
+    },
+    {
+     "id": "should-shouldnt",
+     "name": "Should / Shouldn't"
+    },
+    {
+     "id": "going-to-future-plans",
+     "name": "Going to for Future Plans"
+    },
+    {
+     "id": "must-mustnt",
+     "name": "Must / Mustn't"
+    }
+   ]
+  },
+  "prep2": {
+   "name": "الصف الثاني الإعدادي",
+   "track": "prep",
+   "verified": true,
+   "rules": [
+    {
+     "id": "verb-to-be",
+     "name": "Verb to Be"
+    },
+    {
+     "id": "possessive-s",
+     "name": "Possessive 's"
+    },
+    {
+     "id": "there-is-there-are",
+     "name": "There is / There are"
+    },
+    {
+     "id": "prepositions-of-place",
+     "name": "Prepositions of Place"
+    },
+    {
+     "id": "present-simple",
+     "name": "Present Simple"
+    },
+    {
+     "id": "plural-nouns",
+     "name": "Plural Nouns"
+    }
+   ]
+  },
+  "prep3": {
+   "name": "الصف الثالث الإعدادي",
+   "track": "prep",
+   "verified": false,
+   "rules": []
+  },
+  "gen1": {
+   "name": "الصف الأول الثانوي العام",
+   "track": "general",
+   "verified": true,
+   "rules": [
+    {
+     "id": "past-simple",
+     "name": "Past Simple"
+    },
+    {
+     "id": "past-continuous",
+     "name": "Past Continuous"
+    },
+    {
+     "id": "modal-verbs",
+     "name": "Modal Verbs"
+    },
+    {
+     "id": "conditional-sentences",
+     "name": "Conditional Sentences"
+    },
+    {
+     "id": "verbs-infinitive-gerund",
+     "name": "Verbs + Infinitive / Gerund"
+    },
+    {
+     "id": "countable-uncountable-nouns",
+     "name": "Countable and Uncountable Nouns"
+    },
+    {
+     "id": "articles",
+     "name": "Articles"
+    }
+   ]
+  },
+  "gen2": {
+   "name": "الصف الثاني الثانوي العام",
+   "track": "general",
+   "verified": false,
+   "rules": [
+    {
+     "id": "present-perfect",
+     "name": "Present Perfect",
+     "ar": "المضارع التام",
+     "summary": "يربط الماضي بالحاضر: خبرة حتى الآن، أو نتيجة ظاهرة دلوقتي، أو حاجة بدأت في الماضي ولسه مستمرة. مفيش معاه زمن منتهٍ محدد زي yesterday أو last year.",
+     "form": [
+      "S + have/has + past participle",
+      "Neg: haven't / hasn't + pp",
+      "Q: Have/Has + S + pp ?",
+      "كلمات مساعدة: already, yet, just, ever, never, for, since, so far"
+     ],
+     "examples": [
+      [
+       "I have just finished my project.",
+       "لقد أنهيت مشروعي للتو."
+      ],
+      [
+       "Have you ever been to Luxor?",
+       "هل زرت الأقصر من قبل؟"
+      ]
+     ],
+     "lesson": "pp"
+    },
+    {
+     "id": "present-perfect-continuous",
+     "name": "Present Perfect Continuous",
+     "ar": "المضارع التام المستمر",
+     "summary": "بنركز فيه على استمرار الفعل لفترة وأثره الحالي. بنستخدمه مع for و since و all day و how long.",
+     "form": [
+      "S + have/has + been + verb-ing",
+      "Q: How long have you been + verb-ing ?"
+     ],
+     "examples": [
+      [
+       "She has been studying for three hours.",
+       "هي تذاكر منذ ثلاث ساعات."
+      ],
+      [
+       "It has been raining since morning.",
+       "إنها تمطر منذ الصباح."
+      ]
+     ]
+    },
+    {
+     "id": "past-perfect",
+     "name": "Past Perfect",
+     "ar": "الماضي التام",
+     "summary": "بنستخدمه لفعل حصل قبل فعل تاني في الماضي. الفعل الأقدم past perfect والأحدث past simple.",
+     "form": [
+      "S + had + past participle",
+      "كلمات مساعدة: before, after, by the time, already, when"
+     ],
+     "examples": [
+      [
+       "When I arrived, the film had already started.",
+       "عندما وصلت كان الفيلم قد بدأ بالفعل."
+      ],
+      [
+       "He had finished his homework before he went out.",
+       "كان قد أنهى واجبه قبل أن يخرج."
+      ]
+     ],
+     "lesson": "pperf"
+    },
+    {
+     "id": "past-simple-vs-present-perfect",
+     "name": "Past Simple vs Present Perfect",
+     "ar": "الماضي البسيط والمضارع التام",
+     "summary": "الماضي البسيط لزمن منتهٍ ومحدد (yesterday, in 2010, ago). المضارع التام لزمن غير محدد أو لسه مستمر أو له أثر حالي.",
+     "form": [
+      "Past simple: I saw him yesterday.",
+      "Present perfect: I have seen him recently."
+     ],
+     "examples": [
+      [
+       "I lost my keys yesterday.",
+       "أضعت مفاتيحي أمس."
+      ],
+      [
+       "I have lost my keys. (I can't find them now)",
+       "أضعت مفاتيحي (ولا أجدها الآن)."
+      ]
+     ]
+    },
+    {
+     "id": "passive-voice",
+     "name": "Passive Voice",
+     "ar": "المبني للمجهول",
+     "summary": "بنستخدمه لما الفعل أو المفعول أهم من الفاعل، أو الفاعل مجهول. المفعول بيبقى هو الفاعل في الجملة، وبنضيف by لو الفاعل مهم.",
+     "form": [
+      "S + be + past participle (+ by agent)",
+      "Present: is/are + pp — Past: was/were + pp",
+      "Present perfect: has/have been + pp",
+      "Modal: can/must/should + be + pp"
+     ],
+     "examples": [
+      [
+       "English is spoken all over the world.",
+       "تُتحدث الإنجليزية حول العالم."
+      ],
+      [
+       "The thief was caught by the police.",
+       "قُبض على اللص بواسطة الشرطة."
+      ]
+     ],
+     "lesson": "pas"
+    },
+    {
+     "id": "reported-statements",
+     "name": "Reported Speech (Statements)",
+     "ar": "الكلام المنقول (الجمل الخبرية)",
+     "summary": "لما ننقل كلام حد بنغيّر الضمائر وبنرجّع الزمن خطوة للخلف لو الفعل الرئيسي ماضي.",
+     "form": [
+      "said / told + that + clause",
+      "am/is → was, are → were",
+      "present simple → past simple",
+      "will → would, can → could, have/has pp → had pp",
+      "now → then, today → that day, tomorrow → the next day, yesterday → the day before"
+     ],
+     "examples": [
+      [
+       "\"I am tired,\" he said. → He said (that) he was tired.",
+       "قال إنه كان متعبًا."
+      ],
+      [
+       "\"I will help you,\" she told me. → She told me she would help me.",
+       "قالت لي إنها ستساعدني."
+      ]
+     ],
+     "lesson": "rep"
+    },
+    {
+     "id": "reported-questions-commands",
+     "name": "Reported Questions & Commands",
+     "ar": "نقل الأسئلة والأوامر",
+     "summary": "الأسئلة المنقولة بترجع لترتيب الجملة الخبرية (من غير do/does/did ومن غير علامة استفهام). الأوامر بنستخدم فيها to + verb.",
+     "form": [
+      "Wh-: asked + wh-word + S + V (past)",
+      "Yes/No: asked + if / whether + S + V",
+      "Command: told/ordered + O + (not) to + verb"
+     ],
+     "examples": [
+      [
+       "\"Where do you live?\" → He asked me where I lived.",
+       "سألني أين أسكن."
+      ],
+      [
+       "\"Close the door.\" → She told me to close the door.",
+       "طلبت مني أن أغلق الباب."
+      ]
+     ]
+    },
+    {
+     "id": "conditionals",
+     "name": "Conditionals (Types 1, 2, 3)",
+     "ar": "جمل الشرط",
+     "summary": "النوع الأول لشرط ممكن في المستقبل. الثاني لشرط غير حقيقي في الحاضر. الثالث لشرط مستحيل في الماضي (ندم أو تخيّل).",
+     "form": [
+      "Type 1: If + present simple, will + verb",
+      "Type 2: If + past simple, would + verb",
+      "Type 3: If + past perfect, would have + past participle",
+      "unless = if ... not"
+     ],
+     "examples": [
+      [
+       "If you study hard, you will pass.",
+       "إذا ذاكرت بجد فستنجح."
+      ],
+      [
+       "If I had known, I would have helped you.",
+       "لو كنت أعرف لساعدتك."
+      ]
+     ],
+     "lesson": "cond"
+    },
+    {
+     "id": "relative-clauses",
+     "name": "Relative Clauses",
+     "ar": "جمل الوصل",
+     "summary": "بنربط معلومة إضافية بالاسم باستخدام who / which / that / whose / where. الـ defining ضرورية للمعنى، والـ non-defining بين فواصل ومعلومة زيادة.",
+     "form": [
+      "who = أشخاص، which = أشياء، that = الاتنين (defining بس)",
+      "whose = ملكية، where = مكان",
+      "Non-defining: بفواصل ومن غير that"
+     ],
+     "examples": [
+      [
+       "The man who lives next door is a doctor.",
+       "الرجل الذي يسكن بجوارنا طبيب."
+      ],
+      [
+       "My car, which is red, is old.",
+       "سيارتي، التي هي حمراء، قديمة."
+      ]
+     ],
+     "lesson": "rel"
+    },
+    {
+     "id": "modal-verbs",
+     "name": "Modal Verbs",
+     "ar": "الأفعال الناقصة",
+     "summary": "بنعبّر بيها عن الواجب والنصيحة والاحتمال والقدرة. بعدها الفعل المصدر من غير to.",
+     "form": [
+      "must = واجب قوي / استنتاج قوي",
+      "have to = إلزام خارجي",
+      "should / ought to = نصيحة",
+      "may / might / could = احتمال",
+      "mustn't = ممنوع، don't have to = مش لازم"
+     ],
+     "examples": [
+      [
+       "You must wear a seat belt.",
+       "يجب أن ترتدي حزام الأمان."
+      ],
+      [
+       "He might be at home.",
+       "ربما يكون في البيت."
+      ]
+     ]
+    },
+    {
+     "id": "used-to-would",
+     "name": "Used to / Would",
+     "ar": "كان يفعل (عادة قديمة)",
+     "summary": "used to لعادة أو حالة قديمة انتهت. would لعادة متكررة قديمة فقط (مش للحالات).",
+     "form": [
+      "used to + verb (neg: didn't use to)",
+      "would + verb (للأفعال المتكررة فقط)",
+      "be/get used to + verb-ing = اعتاد على"
+     ],
+     "examples": [
+      [
+       "I used to play football every day.",
+       "كنت ألعب كرة القدم كل يوم."
+      ],
+      [
+       "She is used to getting up early.",
+       "هي معتادة على الاستيقاظ مبكرًا."
+      ]
+     ]
+    },
+    {
+     "id": "wish-if-only",
+     "name": "Wish / If only",
+     "ar": "التمني",
+     "summary": "wish للتمني على حاجة مش حقيقية. الحاضر بنستخدم بعده الماضي البسيط، والماضي بنستخدم past perfect.",
+     "form": [
+      "Present: wish + past simple (I wish I were taller.)",
+      "Past regret: wish + past perfect",
+      "Future: wish + would (annoyance)",
+      "If only = أقوى من wish"
+     ],
+     "examples": [
+      [
+       "I wish I had more free time.",
+       "أتمنى لو كان عندي وقت فراغ أكثر."
+      ],
+      [
+       "If only I had studied harder!",
+       "يا ليتني ذاكرت أكثر!"
+      ]
+     ]
+    },
+    {
+     "id": "causative-have",
+     "name": "Causative (have something done)",
+     "ar": "المبني للمجهول السببي",
+     "summary": "بنستخدمه لما حد تاني يعمل حاجة لينا (غالبًا بأجر أو خدمة).",
+     "form": [
+      "have + object + past participle",
+      "Past: had + object + pp"
+     ],
+     "examples": [
+      [
+       "I had my car repaired.",
+       "أصلحت سيارتي (عند الميكانيكي)."
+      ],
+      [
+       "She has her hair cut every month.",
+       "تقص شعرها كل شهر."
+      ]
+     ]
+    },
+    {
+     "id": "gerund-infinitive",
+     "name": "Gerund & Infinitive",
+     "ar": "المصدر المقترن بـ ing والمصدر مع to",
+     "summary": "بعض الأفعال بعدها verb-ing وبعضها to + verb، وبعضها بيغيّر المعنى.",
+     "form": [
+      "enjoy, avoid, mind, finish, suggest + verb-ing",
+      "want, decide, hope, plan, agree + to + verb",
+      "stop + ing = يتوقف عن، stop + to = يتوقف ليفعل",
+      "remember/forget + to = تذكّر/نسي أن يفعل"
+     ],
+     "examples": [
+      [
+       "She enjoys reading novels.",
+       "هي تستمتع بقراءة الروايات."
+      ],
+      [
+       "He decided to study abroad.",
+       "قرر أن يدرس في الخارج."
+      ]
+     ]
+    },
+    {
+     "id": "comparison",
+     "name": "Comparison of Adjectives",
+     "ar": "المقارنة",
+     "summary": "القصيرة بنضيف er/est، والطويلة بنستخدم more/most. وفي صيغ as ... as للتساوي.",
+     "form": [
+      "short: taller than / the tallest",
+      "long: more careful than / the most careful",
+      "irregular: good → better → best, bad → worse → worst",
+      "as + adj + as"
+     ],
+     "examples": [
+      [
+       "Cairo is bigger than Alexandria.",
+       "القاهرة أكبر من الإسكندرية."
+      ],
+      [
+       "This is the most interesting book I have read.",
+       "هذا أكثر كتاب ممتع قرأته."
+      ]
+     ]
+    },
+    {
+     "id": "question-tags",
+     "name": "Question Tags",
+     "ar": "الأسئلة الذيلية",
+     "summary": "بنضيف سؤال قصير في آخر الجملة للتأكد. لو الجملة مثبتة الذيل منفي، والعكس.",
+     "form": [
+      "She is happy, isn't she?",
+      "They don't know, do they?",
+      "I am → aren't I?",
+      "Let's → shall we?"
+     ],
+     "examples": [
+      [
+       "You like tea, don't you?",
+       "أنت تحب الشاي، أليس كذلك؟"
+      ],
+      [
+       "He can't swim, can he?",
+       "هو لا يستطيع السباحة، أليس كذلك؟"
+      ]
+     ]
+    }
+   ],
+   "note": "القواعد دي مبنية على موضوعات منهج تانية ثانوي العام بشرح أصلي، ومش منقولة من كتاب المعاصر. قارن الأسماء بفهرس المعاصر عندك قبل ما تعتمد عليها."
+  },
+  "gen3": {
+   "name": "الصف الثالث الثانوي العام",
+   "track": "general",
+   "verified": false,
+   "rules": []
+  },
+  "bac1": {
+   "name": "الصف الأول الثانوي – البكالوريا المصرية",
+   "track": "bac",
+   "verified": false,
+   "rules": []
+  },
+  "bac2": {
+   "name": "الصف الثاني الثانوي – البكالوريا المصرية",
+   "track": "bac",
+   "verified": false,
+   "rules": []
+  }
+ }
+}
